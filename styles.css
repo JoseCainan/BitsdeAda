@@ -408,6 +408,12 @@ button {
         padding: 10px 0;
     }
 
+    .mao {
+        width: 90%;
+        max-width: 280px;
+        height: auto;
+    }
+
     .btn-contato button {
         padding: 10px 20px;
         font-size: 16px;
@@ -492,6 +498,12 @@ button {
         padding: 5px 0;
     }
 
+    .mao {
+        width: 100%;
+        max-width: 240px;
+        height: auto;
+    }
+    
     .btn-contato button {
         padding: 8px 20px;
         font-size: 15px;
