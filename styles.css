@@ -450,3 +450,110 @@ button {
         padding: 15px;
     }
 }
+
+/* Responsivo: telas até 680px */
+@media screen and (max-width: 680px) {
+    .apresentacao {
+        flex-direction: column;
+        padding: 30px 5%;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .apresentacao img,
+    .card-Rainha img {
+        width: 100%;
+        max-width: 320px;
+        height: auto;
+    }
+
+    .quem-somos h1 {
+        font-size: 30px;
+    }
+
+    .quem-somos p {
+        font-size: 15px;
+        line-height: 1.5em;
+    }
+
+    header > .interface {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    header nav ul li {
+        padding: 5px 0;
+    }
+
+    .btn-contato button {
+        padding: 8px 20px;
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    h3,
+    .sub_titulo,
+    .data,
+    button {
+        font-size: 15px;
+    }
+
+    .passo {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 15px;
+        gap: 15px;
+    }
+
+    .passo__cabecalho {
+        gap: 10px;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .passo__barra {
+        width: 100%;
+        height: 3px;
+        min-width: auto;
+    }
+
+    .footer_container {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .footer nav ul {
+        flex-direction: column;
+        gap: 5px;
+        padding: 0;
+    }
+
+    .footer nav ul li {
+        padding: 5px 0;
+        font-size: 14px;
+    }
+
+    .footer img {
+        width: 25px;
+    }
+
+    .card--quem {
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .card_titulo {
+        font-size: 20px;
+    }
+}
