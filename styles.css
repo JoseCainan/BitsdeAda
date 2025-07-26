@@ -190,6 +190,7 @@ button {
     display: flex;
     flex-direction: column;
     text-align: justify;
+    font-size: 20px;
 }
 
 .quem-somos h1 {
@@ -243,7 +244,8 @@ button {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    
+    font-size: 20px;
+    text-align: justify;
 }
 
 .passo {
@@ -302,12 +304,17 @@ button {
     width: 100%;
     margin-bottom:0px;
     padding-top: 30px;
+    gap: 20px;
+    font-size: 20px;
+    text-align: justify;
 }
 
 .card_titulo{
-    font-size: 23px;
+    padding: 35px 15px ;
+    font-size: 40px;
     font-weight: 500;
     line-height: 100%;
+    text-align: center;
 }
 
 .card-Rainha img {
